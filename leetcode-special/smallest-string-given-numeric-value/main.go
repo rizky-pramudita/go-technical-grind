@@ -1,13 +1,17 @@
 package main
-import (
-	"fmt"
-	"strings"
-)
+import ("fmt")
 
-func getSmallestString(n int, k int) string {
+func isValid(input string) bool {
+    closeMap := {{")", "("}, {"]", "["}, {"}", "{"}}
+    leftArray := ([]string)
+
+    for i:=0;i<len(input);i++{
+		if input[i] == "(" || 
+    }
+	return true
 }
 
-func main() {
-	n, k := 3, 27
-	fmt.Println(getSmallestString(n, k))
+func main(){
+    input := "(())"
+    fmt.Println(isValid(input))
 }

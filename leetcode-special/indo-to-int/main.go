@@ -65,6 +65,6 @@ func wordInt(sentence string) int {
 }
 
 func main() {
-	sentence := "delapan juta tujuh ratus lima puluh ribu seratus dua puluh tiga"
+	sentence := "delapan milyar lima ratus tujuh puluh ribu satu"
 	fmt.Println(wordInt(sentence)) // Expected Output: 8750000
 }
